@@ -1,18 +1,13 @@
 html {
   scroll-behavior: smooth;
 }
+
 header {
-  /* margin: 15px; */
   width: 100%;
   color: #fff;
   text-align: center;
   display: block;
   background-image:  url('../img//world1.jpg');
-  /* overflow-y: hidden; */
-  /* linear-gradient(rgba(22, 33, 118, 0.7), rgba(0, 0, 0, 0.7)), */
-  /* background-position: center; */
-  /* background-size: cover; */
-  /* padding-bottom: 0.25%; */
   margin-top: -28%;
   margin-bottom: 0.5%;
   background-position: 100%;
@@ -139,12 +134,9 @@ nav {
 }
 
 #current-location {
-  /* margin: 10px; */
   padding: 100px;
   display: block;
   width: 100vw;
   background-position: 20% -130%;
-  /* margin-top: 5%; */
-  /* height:100vh; */
   background-image:  linear-gradient(rgba(11, 11, 11, 0.7), rgba(11, 15, 30, 0.7)),url('../img/world1.jpg');
 }
