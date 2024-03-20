@@ -32,7 +32,7 @@ function Page() {
             region: 'Region : ' + data[0]?.region,
             area: 'Area : ' + data[0]?.area,
             population: 'Population : ' + data[0]?.population,
-            timezones: 'Timezone : ' + data[0]?.timezones,
+            timezones: 'Time Zone : ' + data[0]?.timezones,
             flags: data[0]?.flags?.png
           });
         })
