@@ -7,11 +7,9 @@ function Page() {
     officialName: 'Official Name : ',
     capital: 'Capital : ',
     region: 'Region : ',
-    // languages: 'Languages : ',
     area: 'Area : ',
     population: 'Population : ',
     timezones: 'Time Zones : ',
-    // continents: 'continents : ',
     flags: 'Flags : '
   });
 
@@ -32,13 +30,10 @@ function Page() {
             officialName: 'Official Name : ' + data[0]?.name?.official,
             capital: 'Capital :' + data[0]?.capital,
             region: 'Region : ' + data[0]?.region,
-            // languages: Object.values(data[0].languages).join(', '),
             area: 'Area : ' + data[0]?.area,
             population: 'Population : ' + data[0]?.population,
             timezones: 'Timezone : ' + data[0]?.timezones,
-            // continents: Object.values(data[0].continents).join(', '),
             flags: data[0]?.flags?.png
-
           });
         })
         .catch(error => console.error('Error fetching data', error));
@@ -52,9 +47,7 @@ function Page() {
           <nav>
             <div className="nav-links" id="navLnks">
               <ul>
-                {/* <li><a href="">HOME</a></li> */}
                 <li><span style={{ fontSize: '25px' }}>&#128072;</span> <a href="">HOME</a></li>
-                {/* <li><a href="#current-location">CURRNENT LOCATION</a></li> */}
               </ul>
             </div>
           </nav>
