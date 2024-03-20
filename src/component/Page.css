@@ -56,7 +56,8 @@ nav {
 }
 
 .title {
-  font-size: 320%;
+  font-family: Montagu Slab;
+  font-size: 350%;
   margin-top: -3%;
   text-align: center;
 }
@@ -78,59 +79,70 @@ nav {
 }
 
 .headers {
+  font-family: Montagu Slab;
   text-align: center;
   color: #fff;
-  font-size: 40px;
+  font-size: 42px;
 }
 
 #timezones{
   color: #fff;
-  font-size: larger;
+  font-size: 23px;
+  font-family: Montagu Slab;
 }
 
 #continents{
   color: #fff;
-  font-size: larger;
+  font-size: 23px;
+  font-family: Montagu Slab;
 }
 
 #commonName {
   color: #fff;
-  font-size: larger;
+  font-size: 23px;
+  font-family: Montagu Slab;
 }
 
 #officialName {
   color: #fff;
-  font-size: larger;
+  font-size: 23px;
+  font-family: Montagu Slab;
 }
 
 #capital {
   color: #fff;
-  font-size: larger;
+  font-size: 23px;
+  font-family: Montagu Slab;
 }
 
 #region {
   color: #fff;
-  font-size: larger;
+  font-size: 23px;
+  font-family: Montagu Slab;
 }
 
 #languages {
   color: #fff;
-  font-size: larger;
+  font-size: 23px;
+  font-family: Montagu Slab;
 }
 
 #area {
   color: #fff;
-  font-size: larger;
+  font-size: 23px;
+  font-family: Montagu Slab;
 }
 
 #population {
   color: #fff;
-  font-size: larger;
+  font-size: 23px;
+  font-family: Montagu Slab;
 }
 
 #flags {
   color: #fff;
-  font-size: larger;
+  font-size: 23px;
+  font-family: Montagu Slab;
 }
 
 #current-location {
