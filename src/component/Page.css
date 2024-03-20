@@ -1,99 +1,150 @@
-/*----------------Header CSS ---------------------*/
+html {
+  scroll-behavior: smooth;
+}
 header {
-    width: 100%;
-      color: #fff;
-      text-align: center;
-      background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('../img//world1.jpg');
-      background-position: center;
-      padding-bottom: 5%;
-  }
-  
-  nav{
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .nav-links{
-    flex: 1;
-    text-align: right;
-  }
-  
-  .nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-  }
-  .nav-links ul li a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 13px;
-  
-  }
-  
-  .nav-links ul li::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #3085C3;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-  }
-  .nav-links ul li:hover::after{
-    width: 100%;
-  }
+  /* margin: 15px; */
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  display: block;
+  background-image:  url('../img//world1.jpg');
+  /* overflow-y: hidden; */
+  /* linear-gradient(rgba(22, 33, 118, 0.7), rgba(0, 0, 0, 0.7)), */
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* padding-bottom: 0.25%; */
+  margin-top: -28%;
+  margin-bottom: 0.5%;
+  background-position: 100%;
+}
 
-  .title{
-    font-size: 300%;
-    margin-top: 1%;
-    text-align: center;
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  flex: 1;
+  text-align:left;
+  margin-top: 30%;
   
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding:10px 12px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  color: #fff;
+  text-decoration:none;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.nav-links ul li::after {
+  content: '';
+  width: 0%;
+  height: 3px;
+  background: #3085C3;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+
+.title {
+  font-size: 320%;
+  margin-top: -3%;
+  text-align: center;
+}
+
+#searchtxt{
+  padding: 9px 20px;
+  margin: 10px;
+  border-radius: 5px;
 }
 
 #searchbtn {
-    background-color: #007BFF;
-    color: #fff;
-    padding: 10px 20px;
-    margin: 10px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-.heders{
-    text-align: center;
-    color: #fff;
+.headers {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
 }
 
-#commonName{
-    color: #fff;
+#timezones{
+  color: #fff;
+  font-size: larger;
 }
 
-#officialName{
-    color: #fff;
-}
-#region{
-    color: #fff;
-}
-#languages{
-    color: #fff;
-}
-#area{
-    color: #fff;
-}
-#population{
-    color: #fff;
-}
-#flag{
-    color: #fff;
+#continents{
+  color: #fff;
+  font-size: larger;
 }
 
-#current-location{
-   
-     margin: 10px;
-     padding: 40px;
-     /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('assets/pexels-brett-sayles-1431822.jpg'); */
-   }
+#commonName {
+  color: #fff;
+  font-size: larger;
+}
+
+#officialName {
+  color: #fff;
+  font-size: larger;
+}
+
+#capital {
+  color: #fff;
+  font-size: larger;
+}
+
+#region {
+  color: #fff;
+  font-size: larger;
+}
+
+#languages {
+  color: #fff;
+  font-size: larger;
+}
+
+#area {
+  color: #fff;
+  font-size: larger;
+}
+
+#population {
+  color: #fff;
+  font-size: larger;
+}
+
+#flags {
+  color: #fff;
+  font-size: larger;
+}
+
+#current-location {
+  /* margin: 10px; */
+  padding: 100px;
+  display: block;
+  width: 100vw;
+  background-position: 20% -130%;
+  /* margin-top: 5%; */
+  /* height:100vh; */
+  background-image:  linear-gradient(rgba(11, 11, 11, 0.7), rgba(11, 15, 30, 0.7)),url('../img/world1.jpg');
+}
